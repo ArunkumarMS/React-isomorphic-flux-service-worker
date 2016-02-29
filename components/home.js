@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
+import Header from './Header'
 import render from '../lib/render';
 class home extends React.Component{
 	render() {
     return (
 
-<div> <form action="/report">
+<div className="content">
+
+
+<Header />
+ <form action="/report">
   Enter City Name:
   <input type="text" name="city" placeholder="city name" required>
   </input> 

@@ -5,26 +5,12 @@ data-props= JSON.stringify(props)
 head
     meta(charset='utf-8')
     style
-      include  Bootstrap.css
-      
+          include  Bootstrap.css     
 
     title= pageTitle
 
 body()
+    #content!= content
 
 
-  .page-header-top
-      .container
-        span#head
-          h1
-             span#thing_name(itemprop='name') Welcome to Weather Reporting isomorphic App
-       
-
-
- h3
-   #content!= content
-
-    //  footer
-    //  .container.footerWrap
-    // h4
-     //  some footer content_to_disply 
+  //  meta(name='viewport' content='width=device-width, initial-scale=1.0') // To enable GPU rasterization

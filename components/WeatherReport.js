@@ -5,7 +5,7 @@ export default class WeatherReport extends React.Component {
     
  return (
  	
-         <div className="report-main">
+         <div className="report-main content">
            <span className="report">Current temperature in 
            <p>{this.props.city}</p>
            <p> {this.props.body.main.temp} &#8451; <img src={"http://openweathermap.org/img/w/" +this.props.body.weather[0].icon+".png"}></img> 

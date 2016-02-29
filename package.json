@@ -1,0 +1,22 @@
+{
+  "name" : "Arunkumar",
+ "email" : "Arunkumarms@outlook.com",  
+  "version": "0.9.0",
+  "description": "isomorphic experimental app",
+  "main": "app.js",
+  "dependencies": {
+    "babelify": "^6.4.0",
+    "browserify": "^12.0.1",
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "jade": "^1.11.0",
+    "module-babel": "0.0.2",
+    "path": "^0.12.7",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "request": "^2.65.0",
+    "slash": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

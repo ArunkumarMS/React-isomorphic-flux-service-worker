@@ -9,3 +9,9 @@
   - Flux :yet to start for time being u can caheckout my other repo [React-ES6-FLUX](https://github.com/ArunTesco/React-ES6)
   - Service worker yet to start but for time being u can checkout my  other  repo[Serviceworkers](https://github.com/ArunTesco/PushNotification)
   - Redux - yet to start
+  - 
+### Steps to start the server
+
+   - npm install
+   - node . 
+   - goto : http://localhost:5000/
